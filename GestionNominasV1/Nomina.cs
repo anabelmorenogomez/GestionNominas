@@ -37,5 +37,15 @@ namespace GestionNominasV1
                 _nombre = value;
             }
         }
+        public string ApellidosEmpleado {
+            get{
+                return _apellidos;
+            }
+            set{
+                _apellidos=value;
+            }
+        }
+
+        
     }
 }
